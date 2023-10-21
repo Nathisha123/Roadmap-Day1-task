@@ -1,0 +1,17 @@
+Qn: Difference between http 1.1 and http2
+http 1.1:-
+=>It is the first usable version of http created in the year of 1997 by IETF(Internet Engineering Task Force).
+=> It loads resources one after the other, so if one resource cannot be loaded it blocks all the resources behind it.
+=>It compresses the data by   itself.
+=>It works on the textual format for the http requests.
+=>It is used when connecting to a server with http or https.
+=>It used the concept of pipeling to send multiple requests over a single connection in sequence.
+
+http 2:-
+=>It was created in the year 2015 over SPDY protocol by IETF.
+=>It uses a single TCP connection to send multiple streams of data at once so that no resources are blocked by any other resource.
+=>It uses HPACk for data compression that eliminates the reduntant information in http header packets.
+=>It works on binary protocol.
+=>It is used when connecting to a server with https only.
+=>It used the concept of Multiplexing which allows the browser to send multiple requests in parallel over a single connection
+=>It has server push feature which proactively pushes cacheable content to the clients by anticipating future requests which the current request might depend.

@@ -1,0 +1,27 @@
+Qn: Object and its internal representation in Javascript.
+Answer:
+//An object can be called as a container for named values.
+//Objects are inportant datatypes in Javascript but different than the primitive datatypes like numbers, string, boolean etc.
+//Primitive datatypes can hold one value but objects can hold many vaues in the form of key:value pair.
+//The key:value pair is called properties in object
+//The keys can be variable or functions.
+//Each member of an object is a key: value pair separatad by the commas and enclosed in curly braces{}.
+//The actions performed on objects are called methods.
+//Unassigned properties of an object are undefined and not null.
+//Objects are commonly declared using the const datatype.
+//The "this" keyword in javascript refers to an object. 
+
+##An object can be initialised using object.create() format.
+## Objects can also be defined in a single line format
+           const.object_name ={key1:value1, key2:value2};
+##  Objects can also be declared as
+           const.object_name={
+            key1:value1;
+            key2:value2;
+           }      
+## To access object properties:
+           objectname.propertyname;
+           objectname["propertyname"];
+
+## To access object methods:
+           objectname.methodname();

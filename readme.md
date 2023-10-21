@@ -1,0 +1,1 @@
+This task contains the answers for  http 1.1 vs http2 and about the object and its internal representation in javascript.
